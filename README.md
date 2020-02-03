@@ -1,2 +1,3 @@
-# CMPE030Lab
-Repo of all of my CMPE30L works
+# CMPE30
+Collection of my code in CMPE30
+Serves as a portfolio and also for ease of keeping files consistent between computers
