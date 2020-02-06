@@ -5,5 +5,5 @@ int main(void)                          /* this is a function */
     return 0;
 }
 
-//gcc -o Lab2.exeLab2.c
+//gcc -o Lab2.exe Lab2.c
 //./Lab2.exe
