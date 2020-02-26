@@ -1,6 +1,6 @@
 # CMPE30
 
-![](images/sjsuSponsor.jpg) <br/>
+![](sjsuSponsor.jpg) <br/>
 
 **Collection of my code in CMPE30**<br/>
 [Link to SJSU-Dev2 main website](https://sjsu-dev2.readthedocs.io/en/latest/)<br/>
