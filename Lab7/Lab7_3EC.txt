@@ -1,0 +1,10 @@
+3. 
+Both loops in this case can give different outcomes if zeroes are entered.
+
+The while loop in this case iterates ten times plus however many times the user inputs zero. It stops when ten non-zero numbers are put in.
+The for loop in this case iterates ten times no matter what number is put in by the user, and stops after the 10th number has been put in.
+
+The reason why the while loop and for loop behave differently is because of the continue statement that is inside of the if (i == 0).
+When the user gives 0 as an input and the continue statement is executed in the case of the for loop, it iterates n after the continue statement regardless, as the update expression is always independent and executed after the loop body - this is why the for loop will iterate only 10 times. In the case of the while loop, it iterates n after the continue statement inside the loop body. This means that when a 0 is given and the continue statement is executed, the loop starts at the top again and skips the iteration expression for n.
+Because of this, the sum of the for loop will always be lower if and only if given the same set numbers, size greater than 10, with at least one zero within the first 10 numbers.
+Both loops will give the same outcomes only if 10 consecutive non-zero numbers are given.
