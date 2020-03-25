@@ -17,7 +17,7 @@ int main(void) {
     char arr[size];
     int n; 
     printf("Enter message to be encrypted: ");
-    scanf("%s", arr);
+    scanf("%[^\n]s", arr);
     printf("Enter shift amount: ");
     scanf("%d", &n);
 
